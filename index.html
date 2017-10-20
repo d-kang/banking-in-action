@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="styles.css">
 
   <!-- 1. Load libraries -->
+  <script src="https://unpkg.com/babel-standalone@6/babel.js"></script>
   <script src="node_modules/rxjs/bundles/Rx.js"></script>
   <script src="node_modules/ramda/dist/ramda.js"></script>
   <script src="node_modules/moment/moment.js"></script>
@@ -18,7 +19,7 @@
   <script src="node_modules/react-bootstrap/dist/react-bootstrap.js"></script>
   <script src="node_modules/redux/dist/redux.js"></script>
 
-  <script src="https://unpkg.com/babel-standalone@6/babel.js"></script>
+
 </head>
 <body>
 
@@ -27,6 +28,7 @@
 </div>
 
 <div id="root"></div>
+<div id="root2"></div>
 
 
 
@@ -35,27 +37,27 @@
 <script src="app/scripts/util/createMiddleware.js"></script>
 
 <!-- Services -->
-<script src="app/scripts/db.js"></script>
-<script src="app/scripts/actions.js"></script>
-<script src="app/scripts/reducers.js"></script>
-<script src="app/scripts/epics/interest.js"></script>
-<script src="app/scripts/epics/search.js"></script>
-<script src="app/scripts/epics/transaction.js"></script>
-<script src="app/scripts/epics/user.js"></script>
-<script src="app/scripts/epics/message.js"></script>
-<script src="app/scripts/epics/logging.js"></script>
+<script type="text/javascript" src="app/scripts/db.js"></script>
+<script type="text/javascript" src="app/scripts/actions.js"></script>
+<script type="text/javascript" src="app/scripts/reducers.js"></script>
+<script type="text/javascript" src="app/scripts/epics/interest.js"></script>
+<script type="text/javascript" src="app/scripts/epics/search.js"></script>
+<script type="text/javascript" src="app/scripts/epics/transaction.js"></script>
+<script type="text/javascript" src="app/scripts/epics/user.js"></script>
+<script type="text/javascript" src="app/scripts/epics/message.js"></script>
+<script type="text/javascript" src="app/scripts/epics/logging.js"></script>
 
 <!-- Components -->
-<script type="text/babel" src="app/scripts/components/accounts.component.js"></script>
-<script type="text/babel" src="app/scripts/components/header.component.js"></script>
-<script type="text/babel" src="app/scripts/components/message.component.js"></script>
-<script type="text/babel" src="app/scripts/components/portfolio.component.js"></script>
-<script type="text/babel" src="app/scripts/components/transaction.component.js"></script>
-<script type="text/babel" src="app/scripts/components/typeahead.component.js"></script>
+<script type="text/javascript" src="app/scripts/components/accounts.component.js"></script>
+<script type="text/javascript" src="app/scripts/components/header.component.js"></script>
+<script type="text/javascript" src="app/scripts/components/message.component.js"></script>
+<script type="text/javascript" src="app/scripts/components/portfolio.component.js"></script>
+<script type="text/javascript" src="app/scripts/components/transaction.component.js"></script>
+<script type="text/javascript" src="app/scripts/components/typeahead.component.js"></script>
 
 <!-- 2. Load our 'app' -->
-<script src="app/scripts/app.js"></script>
+<script type="text/babel" src="app/scripts/app.js"></script>
 
-
+<script type="text/babel" src="app.js"></script>
 </body>
 </html>

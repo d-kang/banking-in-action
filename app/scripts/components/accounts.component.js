@@ -3,13 +3,17 @@
   const BalanceComponent = window.BalanceComponent = (props) => {
     const {h1, h3} = React.DOM;
     const {Col} = ReactBootstrap;
-    console.log('h1', h1);
+    console.log('h1', h1)
     return (
       React.createElement(
         Col, {xs: 6},
         h3(null, `${props.name}:`),
         h1(null, `$${props.balance.toFixed(2)}`)
       )
+      // <div xs={6}>
+      //   <h3>`${props.name}:`</h3>
+      //   <h1>`$${props.balance.toFixed(2)}`</h1>
+      // </div>
     );
   };
 

@@ -1,13 +1,10 @@
-const connect = require('connect');
-const serveStatic = require('serve-static');
-const http = require('http');
+const express = require('express');
+const app = express();
 
-const app = connect();
+const port = process.env.PORT || 3000;
+app.use(express.static('.'));
 
-app.use(serveStatic('.'));
 
-const server = http.createServer(app)
-
-server.listen(3000, () => {
-  console.log('Banking in Action! on port:', server.address().port);
+app.listen(port, () => {
+  console.log(`Banking in Action! on port http://localhost:${port}`);
 });

@@ -1,10 +1,4 @@
 /**
- *  RxJS in action
- *  Chapter #
- *  @author Paul Daniels
- *  @author Luis Atencio
- */
-/**
  * SEARCH
  */
 function searchEpic(action$) {

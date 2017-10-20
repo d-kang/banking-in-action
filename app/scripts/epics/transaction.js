@@ -1,10 +1,3 @@
-/**
- *  RxJS in action
- *  Chapter #
- *  @author Paul Daniels
- *  @author Luis Atencio
- */
-
 const transactionSuccess = (store) => (newBalances) => (
   setBalances(Object.assign({}, store.getState()['accounts'], newBalances))
 );

@@ -1,9 +1,3 @@
-/**
- *  RxJS in action
- *  Chapter #
- *  @author Paul Daniels
- *  @author Luis Atencio
- */
 (function() {
 
   const {a, div, tbody, td, th, tr} = React.DOM;

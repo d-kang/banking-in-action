@@ -1,9 +1,3 @@
-/**
- *  RxJS in action
- *  Chapter #
- *  @author Paul Daniels
- *  @author Luis Atencio
- */
 (function () {
 
   const ItemComponent = ({code, close}) => {

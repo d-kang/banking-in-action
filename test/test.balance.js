@@ -1,9 +1,3 @@
-/**
- *  RxJS in action
- *  Chapter #
- *  @author Paul Daniels
- *  @author Luis Atencio
- */
 const expect = chai.expect;
 
 function assertDeepEqual(actual, expected) { //#A

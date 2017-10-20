@@ -1,11 +1,4 @@
 /**
- *  RxJS in action
- *  Chapter #
- *  @author Paul Daniels
- *  @author Luis Atencio
- */
-
-/**
  * Balances
  */
 const SET_BALANCES = 'SET_BALANCES';

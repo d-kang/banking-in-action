@@ -1,9 +1,3 @@
-/**
- *  RxJS in action
- *  Chapter #
- *  @author Paul Daniels
- *  @author Luis Atencio
- */
 class SearchQuery extends Rx.Observable {
   constructor(subject, {query, options}) {
     super();

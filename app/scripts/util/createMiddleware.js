@@ -1,10 +1,3 @@
-/**
- *  RxJS in action
- *  Chapter #
- *  @author Paul Daniels
- *  @author Luis Atencio
- */
-
 (function (root) {
 
 // A custom utility operator for only accepting messages

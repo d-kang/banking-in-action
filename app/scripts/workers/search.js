@@ -1,9 +1,4 @@
-/**
- *  RxJS in action
- *  Chapter #
- *  @author Paul Daniels
- *  @author Luis Atencio
- *
+/*
  *  A Custom search algorithm to "simulate" an asynchronous search API.
  */
 

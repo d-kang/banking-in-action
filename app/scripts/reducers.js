@@ -1,10 +1,3 @@
-/**
- *  RxJS in action
- *  Chapter #
- *  @author Paul Daniels
- *  @author Luis Atencio
- */
-
 // Utilities to make it easier to access certain values
 const accountsLens = R.lensProp('accounts');
 const messagesLens = R.lensProp('messages');

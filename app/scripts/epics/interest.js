@@ -1,10 +1,3 @@
-/**
- *  RxJS in action
- *  Chapter #
- *  @author Paul Daniels
- *  @author Luis Atencio
- */
-
 const computeInterest =  p => 1 / 10 / 365 * p;
 
 // Processes interest payments

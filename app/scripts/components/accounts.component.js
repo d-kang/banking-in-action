@@ -3,7 +3,7 @@
   const BalanceComponent = window.BalanceComponent = (props) => {
     const {h1, h3} = React.DOM;
     const {Col} = ReactBootstrap;
-
+    console.log('h1', h1);
     return (
       React.createElement(
         Col, {xs: 6},
